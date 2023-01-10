@@ -1,28 +1,29 @@
 # project_web_mining_UCL_TMDB
 
-L'éxécution des code du projet se trouve sur un lien colab (nous n'avons pas pu le mettre sur github).
-Voici le lien:
-https://colab.research.google.com/drive/1Gpc-4u77pqpqSGeUaQd_T1zOn2XevLYH?usp=sharing
+L'exécution des codes du projet se trouve sur un lien Colab (nous n'avons pas pu le mettre sur Github).
+Voici le lien : https://colab.research.google.com/drive/1Gpc-4u77pqpqSGeUaQd_T1zOn2XevLYH?usp=sharing
 
-Pour l'exécution du code il faut :
-1) copier coller toutes les cellules du lien colab:
+Pour l'exécution du code, il faut :
 
-2) Importer les fichiers suivants (elles sont dans le file "data"; 
+1) Copier-coller toutes les cellules du lien Colab
+
+2) Importer les fichiers suivants (ils se trouvent dans le dossier "data") :
     - links.csv
     - movies.csv
-    - Output_Scrapting_TMDB.xlsx
+    - Output_Scraping_TMDB.xlsx
     - ratings.csv
     - coeur.png
     - crime.png
     - drama.webp
     - mark.jpeg
-3) Suivre les étapes indiquer sur collab.
+3) Suivre les étapes indiquées sur Colab.
 
-Note importante:
-Dans le code on utilise les fichiers importé à ces différents endroits, il faut remplacer le chemin des dossiers qui corresponde pour vous.
-Les endroits où on utilise les fichiers sont les suivants:
-- dans la partie 1, 2ième cellule. il y a deux lectures de fichier ( links.csv et movies.csv )
-- dans la partie 3, première cellule. une lecture (Output_Scrapting_TMDB.xlsx)
-- dasn la aprtie 4b, les 4 dernières cellule. il y a 4 lecture ( coeur.png, crime.png, drama.webp, mark.jpeg )
-- dans la partie 7 étape 1, 2ième cellule. une lecture (Output_Scrapting_TMDB.xlsx)
-- dans la partie 7 étape 2, première cellule. une lecture (ratings.csv)
+!!!!!!!!!!!!!!!! Note importante  !!!!!!!
+
+Dans le code, on utilise les fichiers importés à ces différents endroits, il faut remplacer le chemin des dossiers qui correspond pour vous. Les endroits où on utilise les fichiers sont les suivants :
+
+Dans la partie 1, 2ème cellule, il y a deux lectures de fichiers (links.csv et movies.csv)
+Dans la partie 3, première cellule, une lecture (Output_Scraping_TMDB.xlsx)
+Dans la partie 4b, les 4 dernières cellules, il y a 4 lectures (coeur.png, crime.png, drama.webp, mark.jpeg)
+Dans la partie 7, étape 1, 2ème cellule, une lecture (Output_Scraping_TMDB.xlsx)
+Dans la partie 7, étape 2, première cellule, une lecture (ratings.csv)
