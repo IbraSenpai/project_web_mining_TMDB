@@ -7,7 +7,7 @@ Pour l'exécution du code, il faut :
 
 1) Copier-coller toutes les cellules du lien Colab
 
-2) Importer les fichiers suivants (ils se trouvent dans le dossier "data") :
+2) Importer les fichiers suivants (ils se trouvent dans le dossier "data_web_mining") :
     - links.csv
     - movies.csv
     - Output_Scraping_TMDB.xlsx
