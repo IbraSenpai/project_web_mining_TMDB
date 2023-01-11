@@ -16,14 +16,11 @@ Pour l'exécution du code, il faut :
     - crime.png
     - drama.webp
     - mark.jpeg
-3) Suivre les étapes indiquées sur Colab.
+3) Il est important de lancer le code des cellules dans l'ordre. Les différentes étapes du code sont expliquées à chaque étape.
 
-!!!!!!!!!!!!!!!! Note importante  !!!!!!!
+4) Pour la "partie 2 : Scraping", vous pouvez enlever les symboles # de la dernière cellule pour tester le scraping sur quelques films. Si vous souhaitez effectuer du scraping sur l'intégralité des données, le code peut prendre environ 2 heures (cela dépend de la puissance de calcul de votre ordinateur).
 
-Dans le code, on utilise les fichiers importés à ces différents endroits, il faut remplacer le chemin des dossiers qui correspond pour vous. Les endroits où on utilise les fichiers sont les suivants :
+- Pour effectuer le scraping des 10 premiers films, enlevez le # de la ligne 39 à 41
+- Pour effectuer le scraping de l'ensemble des films, enlevez le # de la ligne 5, mettez la ligne 6 en commentaire et enfin enlevez les # de la ligne 39 à 41.
 
-Dans la partie 1, 2ème cellule, il y a deux lectures de fichiers (links.csv et movies.csv)
-Dans la partie 3, première cellule, une lecture (Output_Scraping_TMDB.xlsx)
-Dans la partie 4b, les 4 dernières cellules, il y a 4 lectures (coeur.png, crime.png, drama.webp, mark.jpeg)
-Dans la partie 7, étape 1, 2ème cellule, une lecture (Output_Scraping_TMDB.xlsx)
-Dans la partie 7, étape 2, première cellule, une lecture (ratings.csv)
+Bonne anlyse à vous.
